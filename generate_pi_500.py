@@ -32,7 +32,7 @@ def amount_calculation(k): #function for calculation the amount from the Chudnov
  
 def start():  #the function of running the main calculation
     while True:
-        print ("Welcome to Pi Calculator. Please enter the number of digits upto which the value of Pi should be calculated or enter quit to exit")
+        print ("Welcome to Pi Calculator. Please enter the number of digits up to which the value of Pi should be calculated or enter quit to exit")
         entry = input()
         if entry == "quit":
             print ("Thank you! Bye!")
